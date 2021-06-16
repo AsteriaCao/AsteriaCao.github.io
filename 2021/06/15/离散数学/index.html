@@ -13,11 +13,13 @@
 <meta property="og:site_name" content="Solitude but Freedom">
 <meta property="og:description" content="书本知识的梳理。">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="c:/Users/Asteria/AppData/Roaming/Typora/typora-user-images/image-20210615220109135.png">
 <meta property="article:published_time" content="2021-06-15T01:31:05.000Z">
-<meta property="article:modified_time" content="2021-06-15T11:22:07.531Z">
+<meta property="article:modified_time" content="2021-06-15T16:16:37.886Z">
 <meta property="article:author" content="Asteria Cao">
 <meta property="article:tag" content="大一下">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:/Users/Asteria/AppData/Roaming/Typora/typora-user-images/image-20210615220109135.png">
   
     <link rel="alternate" href="/atom.xml" title="Solitude but Freedom" type="application/atom+xml">
   
@@ -120,14 +122,54 @@
 <h3 id="Q：一些疑惑："><a href="#Q：一些疑惑：" class="headerlink" title="Q：一些疑惑："></a>Q：一些疑惑：</h3><ul>
 <li>十进制表示中不包含0的实数：不可数</li>
 <li>十进制表示中，仅包含有限个1的实数：不可数</li>
-<li>全体整系数二次三元多项式构成的集合___可数集。（yes or no）</li>
+<li>全体整系数二次三元多项式构成的集合 <em>是</em>  可数集。（yes or no）<ul>
+<li>因其构成两个可数集的笛卡尔积。书P121 例题31性质</li>
+</ul>
+</li>
+</ul>
+<h2 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h2><ul>
+<li><p>关系的概念：集合A、B之间存在图示，则关系与图示一一对应，且箭头发出位置为关系的第一个元素。</p>
+<p>由此可见：关系是笛卡尔积的子集。</p>
+</li>
+<li><p>R与S的合成：R: A—&gt;B， S: B—&gt;C，(a, c) 的集合构成的关系记作：S ° R。</p>
+</li>
+<li><p>自反、对称、反对称、传递。</p>
+<ul>
+<li>问：n元素集合上有多少自反的关系？——2 <sup>n( n - 1)</sup>个    P <sub>215</sub></li>
+</ul>
+</li>
+<li><p>用关系矩阵表示关系：</p>
+<ul>
+<li>自反：对角线元素均为1</li>
+<li>对称：关于主对角线对称</li>
+<li>反对称：关于主对角线没有对称元素</li>
+<li>复合关系：转化为矩阵的乘积，S×R。</li>
+</ul>
+</li>
+<li><p>用有向图表示关系：</p>
+<ul>
+<li>自反：每个顶点都有环</li>
+<li>对称：每两个顶点形成环</li>
+<li>反对称：每两个顶点都不形成环</li>
+<li>传递：A到B， B到C，有A到C的弧。</li>
+</ul>
+</li>
+<li><p>关于__传递闭包 __：</p>
+<ul>
+<li>定义：R* = ∪R<sup>n</sup> (注：R<sup>n</sup> 指从a-&gt;b存在一条长度为N的通路)</li>
+<li>关系R的传递闭包为R*</li>
+<li>集合A上的关系R是传递的，当且仅当:<img src="C:\Users\Asteria\AppData\Roaming\Typora\typora-user-images\image-20210615220109135.png" alt="image-20210615220109135"></li>
+<li>设集合A有n个元素，则从a-&gt;b的路径不超过n, 若a ≠ b,则路径不超过n - 1。</li>
 <li></li>
 </ul>
+</li>
+</ul>
+<p>​         </p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/06/15/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" data-id="ckpxdexbo0000gwvleb5eh4y9" data-title="离散数学" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/06/15/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/" data-id="ckpz0jz6500070svl05yy74ti" data-title="离散数学" class="article-share-link">Share</a>
       
       
       
@@ -138,6 +180,15 @@
   
     
 <nav id="article-nav">
+  
+    <a href="/2021/06/16/%E5%A4%8F%E5%A4%A9%E7%9A%84%E6%9F%A0%E6%AA%AC%E8%8C%B6%E5%92%8C%E8%A5%BF%E7%93%9C/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          夏天的柠檬茶和西瓜
+        
+      </div>
+    </a>
   
   
     <a href="/2021/06/14/My-New-Post/" id="article-nav-older" class="article-nav-link-wrap">
@@ -162,7 +213,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/The-very-first-one/" rel="tag">The very first one</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A4%A7%E4%B8%80%E4%B8%8B/" rel="tag">大一下</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/The-very-first-one/" rel="tag">The very first one</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A4%A7%E4%B8%80%E4%B8%8B/" rel="tag">大一下</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%9F%E6%B4%BB/" rel="tag">生活</a></li></ul>
     </div>
   </div>
 
@@ -172,7 +223,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/The-very-first-one/" style="font-size: 10px;">The very first one</a> <a href="/tags/%E5%A4%A7%E4%B8%80%E4%B8%8B/" style="font-size: 10px;">大一下</a>
+      <a href="/tags/The-very-first-one/" style="font-size: 10px;">The very first one</a> <a href="/tags/%E5%A4%A7%E4%B8%80%E4%B8%8B/" style="font-size: 10px;">大一下</a> <a href="/tags/%E7%94%9F%E6%B4%BB/" style="font-size: 10px;">生活</a>
     </div>
   </div>
 
@@ -192,6 +243,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2021/06/16/%E5%A4%8F%E5%A4%A9%E7%9A%84%E6%9F%A0%E6%AA%AC%E8%8C%B6%E5%92%8C%E8%A5%BF%E7%93%9C/">夏天的柠檬茶和西瓜</a>
+          </li>
         
           <li>
             <a href="/2021/06/15/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/">离散数学</a>
